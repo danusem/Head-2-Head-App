@@ -7,7 +7,7 @@
     <title>Head-2-Head App</title>
 
     <!-- Google Fonts CDN -->
-    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Calistoga|Press+Start+2P&display=swap" rel="stylesheet">
 
     <!-- Compiled and minified CSS from Materialize -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -24,25 +24,33 @@
 </head>
 <body>
     <nav>
-        <div class="nav-wrapper orange">
+        <div class="nav-wrapper orange accent-4">
             <div class="brand-logo center black-text">Head-2-Head</div>
         
     </div>
 </nav>
-<img src="images/Basketball.jpg" alt='Basketball'>
+<img src="images/Basketball.jpg" alt="Basketball" class="center">
 
-<header class="containter" id="teams">
-    <input placeholder="Team 1" type="text">
+<header class="containter" id="players">
+    <form>
+    <input type="text" placeholder="Player 1">
+    <input type="submit" value="Get Stats"/>
+    </form>
     <h3>VS</h3>
-    <input placeholder="Team 2" type="text">
+    <!-- <input placeholder="Player 2" type="text">
+    <input type="submit" value="Get Stats"/> -->
 </header>
 <section>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-    Labore exercitationem quis eveniet quam suscipit, molestias dolorum. 
-    Quas voluptas fuga itaque qui. Laborum, earum. Magni, cupiditate eveniet sapiente natus rerum aliquid. 
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-    Cum illum expedita reprehenderit voluptatibus doloremque ipsum corporis iusto magni? Dolorem, iste voluptatum reiciendis consectetur quis totam sint quia et quod quisquam.
-    </p>
+<dl>
+    <dt>First Name</dt>
+    <dd id="first-name"></dd>
+    <dt>Last Name</dt>
+    <dd id="last-name"></dd>
+    <dt>Team</dt>
+    <dd id="team"></dd>
+    <dt>Position</dt>
+    <dd id="position"></dd>
+</dl>
 </section>
 
 

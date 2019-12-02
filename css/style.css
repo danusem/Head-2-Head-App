@@ -7,7 +7,7 @@
     font-family: 'Press Start 2P', cursive;
 }
 
-#teams {
+#players {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,8 +20,27 @@ h3 {
     padding: 40px;
 }
 
-img {
+/* img {
     height: auto;
-    width: 100%;
+    width: 50%;
+    align-self: center;
 
-}
+} */
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    width: 60%;
+    }
+
+ dt {
+   font-size: 30px;
+   text-decoration: underline;
+   font-family: 'Calistoga', cursive;
+ }
+
+ dd {
+     font-size: 30px;
+ }

@@ -33,14 +33,25 @@ $('form').on('submit', (event)=> {
 
 function generateUI(obj) {
     return `
-        <dt>First Name</dt>
-        <dd id="first-name">${obj.first_name}</dd>
-        <dt>Last Name</dt>
-        <dd id="last-name">${obj.last_name}</dd>
-        <dt>Team</dt>
-        <dd id="team">${obj.team}</dd>
-        <dt>Position</dt>
-        <dd id="position">${obj.position}</dd>
+        <dl>
+            <dt>First Name</dt>
+            <dd id="first-name">${obj.first_name}</dd>
+            <dt>Last Name</dt>
+            <dd id="last-name">${obj.last_name}</dd>
+            <dt>Team</dt>
+            <dd id="city">${obj.team.full_name}</dd>
+            <dt>Conference</dt>
+            <dd id="conference">${obj.team.conference}</dd>
+            <dt>Position</dt>
+            <dd id="position">${obj.position}</dd>
+            <dt>Height Feet</dt>
+            <dd id="height-feet">${obj.height_feet}</dd>
+            <dt>Height Inches</dt>
+            <dd id="height-inches">${obj.height_inches}</dd>
+            <dt>Weight</dt>
+            <dd id="weight-pounds">${obj.weight_pounds}</dd>
+    
+            
         </dl>
     `;
 }

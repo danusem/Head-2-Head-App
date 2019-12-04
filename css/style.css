@@ -5,6 +5,7 @@
 
 .brand-logo {
     font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
 }
 
 #players {
@@ -28,24 +29,26 @@
 }
 
 .btn-small.orange {
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 h3 {
     padding: 40px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
 }
 
 img.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 40%;
-    width: 730px;
+    height: 30%;
+    width: 770px;
     padding: 0px 0px 50px 0px;
     }
 
  dt {
-   font-size: 25px;
+   font-size: 20px;
    text-decoration: underline;
    font-family: 'Calistoga', cursive;
    align-content: center;
@@ -53,14 +56,9 @@ img.center {
  }
 
  dd {
-     font-size: 20px;
+     font-size: 18px;
      
  }
-
- body {
-     background-color: grey;     
-
-     }
 
 #player1-results {
     float: left;
